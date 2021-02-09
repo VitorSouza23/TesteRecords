@@ -1,9 +1,7 @@
 namespace TesteRecords.Model
 {
-    public record Bonacera 
+    public record Bonacera(string Name)
     {
-        public string Name {get; init;}
-
         public string SayBonacera() => $"Bonacera {Name}";
     }
 }
